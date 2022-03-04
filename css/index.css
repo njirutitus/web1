@@ -1,0 +1,21 @@
+* {
+  font-size: 1.2em;
+}
+
+nav {
+  background-color: #0a470a;
+}
+
+nav a {
+  color: #fff;
+}
+header {
+  background-color: #479947;
+}
+footer {
+  background-color: #011801;
+}
+
+footer a {
+  color: #fff;
+}
