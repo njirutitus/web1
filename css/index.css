@@ -1,21 +1,27 @@
 * {
   font-size: 1.2em;
+  margin: 0;
 }
 
-nav {
-  background-color: #0a470a;
+body {
+  background-color: rgb(208, 218, 208);
 }
 
-nav a {
-  color: #fff;
-}
-header {
-  background-color: #479947;
-}
-footer {
-  background-color: #011801;
+a {
+  text-decoration: none;
 }
 
-footer a {
+.navbar {
+  background-color: #fff;
+  padding: 0.5em;
+}
+
+.nav-link {
+  border: 0.2em solid green;
+  padding: 0.2em;
+}
+
+.nav-link:hover {
+  background-color: green;
   color: #fff;
 }
