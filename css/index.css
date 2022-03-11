@@ -1,7 +1,28 @@
+* {
+  font-size: 1.2rem;
+  letter-spacing: 0.1em;
+}
+
+a {
+  text-decoration: none;
+}
+
 nav {
   background-color: #00251a;
 }
 
 nav a {
   color: #fff;
+}
+
+nav a:hover {
+  color: #00a8ff;
+}
+
+header {
+  background-image: url("../images/space.jpg");
+}
+
+ul {
+  list-style-type: none;
 }
