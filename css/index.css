@@ -1,26 +1,33 @@
 * {
   font-size: 1.2rem;
   letter-spacing: 0.1em;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(233, 245, 233);
 }
 
 a {
   text-decoration: none;
 }
 
-nav {
-  background-color: #00251a;
+.navbar {
+  background-color: #fff;
+  padding: 0.5em;
 }
 
-nav a {
+.nav-link {
+  color: #000;
+  border: 0.1em solid green;
+  margin: 0.2em;
+  padding: 0.2em;
+}
+
+.nav-link:hover {
   color: #fff;
-}
-
-nav a:hover {
-  color: #00a8ff;
-}
-
-header {
-  background-image: url("../images/space.jpg");
+  background-color: green;
 }
 
 ul {
